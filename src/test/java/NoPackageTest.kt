@@ -17,4 +17,14 @@ class NoPackageTest {
     fun error(){
         throw RuntimeException()
     }
+
+    @Test
+    fun newPass(){
+
+    }
+
+    @Test
+    fun newFial(){
+        throw RuntimeException()
+    }
 }
