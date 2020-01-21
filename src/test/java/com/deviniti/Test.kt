@@ -8,7 +8,7 @@ class Test {
 
     @Test
     fun fail(){
-        assertTrue { false }
+//        assertTrue { false }
     }
 
     @Test
@@ -18,7 +18,7 @@ class Test {
 
     @Test
     fun error(){
-        throw RuntimeException()
+//        throw RuntimeException()
     }
 
 }

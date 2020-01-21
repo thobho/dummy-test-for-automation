@@ -7,7 +7,7 @@ import kotlin.test.assertTrue
 class SuitTests{
     @Test
     fun fail(){
-        assertTrue { false }
+//        assertTrue { false }
     }
 
     @Test
@@ -17,6 +17,6 @@ class SuitTests{
 
     @Test
     fun error(){
-        throw RuntimeException()
+//        throw RuntimeException()
     }
 }
