@@ -19,6 +19,7 @@ class Test {
     @Test
     fun error(){
 //        throw RuntimeException()
+
     }
 
 }
