@@ -22,5 +22,15 @@ class Test {
     fun error(){
     }
 
+    @Test
+    fun noPackagePass2(){
+
+    }
+
+    @Test
+    fun noPackagePass3(){
+
+    }
+
 
 }
