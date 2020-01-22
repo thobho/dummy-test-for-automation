@@ -15,12 +15,11 @@ class Test {
 
     @Test
     fun failThis(){
-        fail()
+
     }
 
     @Test
     fun error(){
-        throw RuntimeException("example message")
     }
 
 

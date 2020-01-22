@@ -23,6 +23,5 @@ class SuitPartOne{
 class SuitPartTwo{
     @Test
     fun failtThis(){
-        fail("Fail message")
     }
 }
