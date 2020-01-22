@@ -15,8 +15,8 @@ class ParametrizedTest(val n: Int) {
         }
     }
 
-    @Test
-    fun test(){
-        print("test $n")
-    }
+//    @Test
+//    fun test(){
+//        print("test $n")
+//    }
 }

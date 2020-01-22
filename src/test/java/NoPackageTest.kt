@@ -4,4 +4,9 @@ import kotlin.test.assertTrue
 
 class NoPackageTest {
 
+    @Test
+    fun noPackagePass(){
+
+    }
+
 }
