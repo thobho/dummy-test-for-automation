@@ -9,4 +9,14 @@ class NoPackageTest {
 
     }
 
+    @Test
+    fun noPackagePass2(){
+
+    }
+
+    @Test
+    fun noPackagePass3(){
+
+    }
+
 }
