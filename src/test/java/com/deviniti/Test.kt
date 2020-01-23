@@ -10,11 +10,13 @@ class Test {
 
     @Test
     fun pass(){
+        kotlin.test.fail()
 
     }
 
     @Test
     fun failThis(){
+        kotlin.test.fail()
 
     }
 
