@@ -18,13 +18,11 @@ class JunitTestSuite
 class SuitPartOne{
     @Test
     fun pass(){
-        throw IllegalStateException("Jolo")
     }
 }
 
 class SuitPartTwo{
     @Test
     fun failtThis(){
-        fail()
     }
 }
