@@ -7,6 +7,7 @@ import org.junit.runners.Suite
 import org.junit.runners.Suite.SuiteClasses
 import java.lang.IllegalStateException
 import kotlin.test.DefaultAsserter.fail
+import kotlin.test.fail
 
 
 @RunWith(Suite::class)
@@ -24,5 +25,6 @@ class SuitPartOne{
 class SuitPartTwo{
     @Test
     fun failtThis(){
+        fail()
     }
 }
