@@ -10,7 +10,6 @@ class Test {
 
     @Test
     fun pass(){
-        fail()
     }
 
     @Test
