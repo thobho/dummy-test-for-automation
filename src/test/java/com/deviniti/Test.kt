@@ -10,6 +10,8 @@ class Test {
 
     @Test
     fun pass(){
+        throw NullPointerException();
+
     }
 
     @Test
