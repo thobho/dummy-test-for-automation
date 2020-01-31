@@ -14,10 +14,10 @@ import kotlin.test.fail
 @SuiteClasses(SuitPartOne::class, SuitPartTwo::class)
 class JunitTestSuite
 
-
 class SuitPartOne{
     @Test
     fun pass(){
+        throw NullPointerException();
     }
 }
 
