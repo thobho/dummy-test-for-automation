@@ -14,4 +14,9 @@ class ParametrizedTest(val n: Int) {
             return (1..2000).toList()
         }
     }
+
+    @Test
+    fun test(){
+        print("test $n")
+    }
 }
