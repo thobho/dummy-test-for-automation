@@ -20,4 +20,9 @@ class NoPackageTest {
 
     }
 
+    @Test
+    fun dupa(){
+
+    }
+
 }
