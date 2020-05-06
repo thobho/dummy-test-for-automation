@@ -11,7 +11,7 @@ class ParametrizedTest(val n: Int) {
         @JvmStatic
         @Parameterized.Parameters(name = "test: {0}")
         fun testParameters(): List<Int> {
-            return (1..800).toList()
+            return (1..1500).toList()
         }
     }
 
