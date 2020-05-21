@@ -11,10 +11,10 @@ class TestNGTests{
         print("thi is test")
     }
 
-    @Test
-    fun failNGTest(){
-        print("thi is test")
-        fail("Failed test")
-    }
+//    @Test
+//    fun failNGTest(){
+//        print("thi is test")
+//        fail("Failed test")
+//    }
 
 }

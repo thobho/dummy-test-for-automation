@@ -17,7 +17,7 @@ class JunitTestSuite
 class SuitPartOne{
     @Test
     fun pass(){
-        throw NullPointerException();
+//        throw NullPointerException();
     }
 }
 
