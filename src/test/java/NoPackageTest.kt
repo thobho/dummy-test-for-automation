@@ -6,7 +6,6 @@ class NoPackageTest {
 
     @Test
     fun noPackagePass(){
-        throw NullPointerException();
 
     }
 
